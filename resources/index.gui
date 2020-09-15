@@ -1,0 +1,30 @@
+<svg class="background">
+  <!-- Saved Location mixed text -->
+  <use id="mtxSaved" href="#mixed-text-center-top" height="100%" fill="fb-yellow">
+    <set href="#header/text" attributeName="text-buffer" to="Saved Location"/>
+    <set href="#copy/text" attributeName="text-length" to="99"/>
+    <set href="#copy/text" attributeName="text-buffer"
+         to="-- , --"/>
+  </use>
+  <!-- Distance mixed text -->
+  <use id="mtxDist" href="#mixed-text-center-bottom" height="100%" fill="lime">
+    <set href="#header/text" attributeName="text-buffer" to="Distance"/>
+    <set href="#copy/text" attributeName="text-length" to="99"/>
+    <set href="#copy/text" attributeName="text-buffer"
+         to="--"/>
+  </use>
+  
+  <!-- Bottom left combo button - save location -->
+  <use id="btnGetLocation" href="#combo-button-lower-left" fill="fb-white">
+    <set href="combo-button-icon" attributeName="href" to="btn_combo_flag_p.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="btn_combo_flag_p.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+  
+  <!-- Bottom right combo button - show distance -->
+  <use id="btnShowDistance" href="#combo-button-lower-right" fill="fb-peach">
+    <set href="combo-button-icon" attributeName="href" to="steps_open.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="steps_solid.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+</svg>

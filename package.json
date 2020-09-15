@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  },
+  "fitbit": {
+    "appUUID": "2bdc4f1e-2503-48e8-b46a-1359569218a8",
+    "appType": "app",
+    "appDisplayName": "CM-Basic1",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [
+      "access_location"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "CM-Basic1"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
