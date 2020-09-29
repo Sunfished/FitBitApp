@@ -32,7 +32,7 @@ function savePosition(position) {
   // Reset distance label copy text
   distBody.text = "--";
   // Update saved position variable
-  savedPosition = position;
+  savedPosition = position; // This belongs in the model.
 }
 
 // Success callback to compute distance to saved location.
